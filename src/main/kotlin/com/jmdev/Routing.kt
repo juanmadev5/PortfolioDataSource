@@ -13,7 +13,7 @@ fun Application.configureRouting() {
         json()
     }
     routing {
-        staticResources("static", "static")
+        staticResources("/static", "files")
         get("/") {
             call.respond(
                 getPortfolioData()
