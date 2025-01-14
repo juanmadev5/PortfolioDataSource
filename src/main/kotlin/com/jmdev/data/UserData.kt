@@ -49,7 +49,7 @@ fun getPortfolioData(): PortfolioData {
             )
         ),
         socialLinks = listOf(
-            SocialLink(name = "GitHub", icon = "githubIcon", link = "https://github.com/juanmadev5"),
+            SocialLink(name = "GitHub", icon = "https://jmdev-portfolio-data-source.onrender.com/static/ic-github.webp", link = "https://github.com/juanmadev5"),
             SocialLink(
                 name = "LinkedIn",
                 icon = "https://jmdev-portfolio-data-source.onrender.com/static/ic-linkedin.webp",
