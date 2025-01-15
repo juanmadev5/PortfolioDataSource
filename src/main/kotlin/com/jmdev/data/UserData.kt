@@ -16,6 +16,7 @@ fun getPortfolioData(): PortfolioData {
         myStack = listOf(
             TechStack("Android Jetpack Compose", "https://jmdev-portfolio-data-source.onrender.com/static/ic-compose.webp"),
             TechStack("Kotlin", "https://jmdev-portfolio-data-source.onrender.com/static/ic-kotlin.webp"),
+            TechStack("Ktor", "https://jmdev-portfolio-data-source.onrender.com/static/ic-ktor.webp"),
             TechStack("React", "https://jmdev-portfolio-data-source.onrender.com/static/ic-react.webp"),
             TechStack("AstroJS", "https://jmdev-portfolio-data-source.onrender.com/static/ic-astro.webp"),
             TechStack("TailwindCSS", "https://jmdev-portfolio-data-source.onrender.com/static/ic-tailwindcss.webp"),
@@ -55,7 +56,7 @@ fun getPortfolioData(): PortfolioData {
                 icon = "https://jmdev-portfolio-data-source.onrender.com/static/ic-linkedin.webp",
                 link = "https://www.linkedin.com/in/juan-manuel-vel%C3%A1zquez-ba8a342ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             ),
-            SocialLink(name = "Contactame", icon = "contactMe", link = "#form")
+            SocialLink(name = "Contactame", icon = "https://jmdev-portfolio-data-source.onrender.com/static/ic-contactme.webp", link = "#form")
         )
     )
 }
