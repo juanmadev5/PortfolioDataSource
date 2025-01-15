@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
 fun Application.module() {
     install(CORS) {
         anyHost()
+        maxAgeInSeconds = 7200
     }
     configureRouting()
 }
